@@ -47,20 +47,18 @@ export default function({ navigation }) {
 
   async function signIn() {
     await Facebook.initializeAsync('2860544543992003');
-    const {
-      type,
-      token,
-      expires
-    } = await Facebook.logInWithReadPermissionsAsync({
+    const fbResult = await Facebook.logInWithReadPermissionsAsync({
       permissions: ['public_profile']
     });
+    console.log(fbResult);
+    const { type, token, expires } = fbResult;
     if (type === 'success') {
       // need to get other info before calling Auth
       // sign in with federated identity
       Auth.federatedSignIn(
         'facebook',
         { token, expires_at: expires },
-        { name: 'USER_NAME' }
+        { name: 'USER_NAME' } // you can capture this elsewhere
       )
         .then(() => {
           console.log('successful login with cognito');
