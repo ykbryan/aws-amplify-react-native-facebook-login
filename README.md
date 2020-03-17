@@ -11,6 +11,10 @@ rm -Rf .git
 yarn && yarn start
 ```
 
+note: if you see the screenshot below, select the correct version as shown in the screenshot
+
+![native-base version](./docs/select-native-base-version.png 'Select nativebase version')
+
 ## Setup Facebook App
 
 Go to https://developers.facebook.com/ and create your app
