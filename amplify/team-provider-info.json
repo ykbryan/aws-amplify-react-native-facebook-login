@@ -1,0 +1,22 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-amplifyauthdemo-prod-133019-authRole",
+            "UnauthRoleArn": "arn:aws:iam::566416766292:role/amplify-amplifyauthdemo-prod-133019-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::566416766292:role/amplify-amplifyauthdemo-prod-133019-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-amplifyauthdemo-prod-133019-deployment",
+            "UnauthRoleName": "amplify-amplifyauthdemo-prod-133019-unauthRole",
+            "StackName": "amplify-amplifyauthdemo-prod-133019",
+            "StackId": "arn:aws:cloudformation:us-east-1:566416766292:stack/amplify-amplifyauthdemo-prod-133019/668f1540-6810-11ea-9099-0e58925d1f8e",
+            "AmplifyAppId": "d1x9nu1n8m0vkr"
+        },
+        "categories": {
+            "auth": {
+                "amplifyauthdemo00e40f7e": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"2860544543992003\",\"client_secret\":\"b9d9af54d1edf4555770d416afc55a6f\"}]"
+                }
+            }
+        }
+    }
+}
