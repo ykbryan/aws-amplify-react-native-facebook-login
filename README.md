@@ -1,3 +1,7 @@
+# How to setup Facebook Login natively in your React Native app
+
+![Facebook Login](./docs/add-facebook-login.png 'Add FB login')
+
 ## Start a new project
 
 ```
