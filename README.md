@@ -159,3 +159,9 @@ yarn start
 Token is not from a supported provider of this identity pool.
 
 You have not added the Facebook App Id in the identity pool at Federated Identities
+
+## References
+
+https://aws-amplify.github.io/docs/js/authentication
+https://docs.expo.io/versions/latest/sdk/facebook/
+https://dev.to/dabit3/the-complete-guide-to-user-authentication-with-the-amplify-framework-2inh
